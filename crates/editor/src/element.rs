@@ -298,6 +298,8 @@ impl EditorElement {
         register_action(editor, window, Editor::rewrap);
         register_action(editor, window, Editor::cut);
         register_action(editor, window, Editor::kill_ring_cut);
+        register_action(editor, window, Editor::kill_ring_cut_region);
+        register_action(editor, window, Editor::kill_ring_save);
         register_action(editor, window, Editor::kill_ring_yank);
         register_action(editor, window, Editor::copy);
         register_action(editor, window, Editor::copy_and_trim);
